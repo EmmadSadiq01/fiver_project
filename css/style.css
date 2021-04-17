@@ -1,7 +1,7 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap");
 /* global */
-html{
+html {
   scroll-behavior: smooth;
 }
 /*============ navbar start ==================*/
@@ -213,7 +213,8 @@ nav .mobile-view li.nav-item {
   font-family: "Poppins", sans-serif;
   color: #fff;
   font-weight: 500;
-  padding: 0 16px 24px;
+  padding: 15px 16px 15px;
+  border-bottom: 1px solid #333;
 }
 nav .mobile-view li.nav-item a {
   font-size: 14px;
@@ -301,13 +302,13 @@ i.fas.fa-angle-down {
   .logo h2 {
     margin-bottom: 0px;
   }
-  #drop-1 .arrow-icon{
+  #drop-1 .arrow-icon {
     transition: 0.5s all ease-in-out;
   }
-  #drop-2 .arrow-icon{
+  #drop-2 .arrow-icon {
     transition: 0.5s all ease-in-out;
   }
-  .rotate_icon{
+  .rotate_icon {
     transform: rotate(180deg);
   }
 }
@@ -417,7 +418,6 @@ i.fas.fa-angle-down {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  
 }
 #mobile-banner-img {
   display: none;
@@ -578,7 +578,6 @@ i.fas.fa-play {
   .mobile-img-card {
     display: block;
     margin-top: 24px;
-
   }
   .desc h2 {
     font-size: 22px;
@@ -1134,7 +1133,7 @@ footer {
   font-size: 16px;
   line-height: 24px;
   bottom: 0;
-  height: 100%!important;
+  height: 100% !important;
   overflow-x: hidden;
   padding: 12px 0 24px;
   font-size: 16px;
@@ -1149,14 +1148,14 @@ footer p.myLinks {
   /* margin: 0 auto 12px; */
   text-decoration: none;
   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 32px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 .footer-links p.myLinks a {
   font-size: 16px;
-  font-family: Helvetica,sans-serif;
-  color: hsla(0,0%,100%,.88);
+  font-family: Helvetica, sans-serif;
+  color: hsla(0, 0%, 100%, 0.88);
   font-weight: 700;
   text-decoration: none;
 }
@@ -1169,7 +1168,7 @@ footer p.myLinks {
   color: white;
   font-size: 4rem;
 }
-.footerLogo-wrapper a{
+.footerLogo-wrapper a {
   text-decoration: none;
 }
 
@@ -1201,29 +1200,27 @@ footer .social-icon a {
 .footer-text p {
   margin: 0 0 32px;
   font-size: 16px;
-  font-family: Helvetica,sans-serif;
-  color: hsla(0,0%,100%,.56);
+  font-family: Helvetica, sans-serif;
+  color: hsla(0, 0%, 100%, 0.56);
   text-align: center;
 }
 
 .copyright p {
   text-align: center;
   font-size: 12px;
-  font-family: Helvetica,sans-serif;
-  color: hsla(0,0%,100%,.88);
+  font-family: Helvetica, sans-serif;
+  color: hsla(0, 0%, 100%, 0.88);
 }
 
 /* media query */
 @media screen and (max-width: 760px) {
-  
-  footer p.myLinks{
+  footer p.myLinks {
     margin: 12px 0px !important;
-  
   }
   .footer-links {
     flex-direction: column;
   }
-  .footer-text{
+  .footer-text {
     padding: 0px 7px;
   }
 }
@@ -1234,8 +1231,6 @@ footer .social-icon a {
   align-items: center;
   justify-content: center;
   transition: 0.4s all ease-in-out;
-
-
 }
 .moveTop-icon {
   display: flex;
@@ -1243,21 +1238,18 @@ footer .social-icon a {
   justify-content: center;
   position: fixed;
   bottom: 20px;
-  background: rgba(0,0,0,.8);
+  background: rgba(0, 0, 0, 0.8);
   width: 60px;
   height: 60px;
   text-decoration: none;
   border-radius: 35px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   color: white;
   z-index: 3;
-  
 }
-.moveTop-icon i{
+.moveTop-icon i {
   font-size: 24px;
-  transition: all .3s ease;
-  
-
+  transition: all 0.3s ease;
 }
 /* div#top-btn {
   opacity: 0;
